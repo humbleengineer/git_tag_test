@@ -3,12 +3,11 @@ play with git tags
 
 Commands to create this rev history:
 ```
-git init
 echo "first feature" > source_code.txt`
 git add source_code.txt 
 git commit -a -m "first commit"
 echo "first feature now working" > source_code.txt
-git commit -a
+git commit -a -m "first feature working"
 git tag -m "first dev release" dev_1
 echo "second feature in dev" >> source_code.txt
 git commit -a -m "second feature 1"
